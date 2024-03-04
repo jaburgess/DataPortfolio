@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --primary-color: #4955fb;
-  --primary-color-dark: #2d3497;
-  --secondary-color: #4955fb;
+  --primary-color: #4B7ED0;
+  --primary-color-dark: #2465CD;
+  --secondary-color: #DC8C00;
   --text-dark: #1f2937;
   --text-light: #6b7280;
   --extra-light: #f3f8ff;
@@ -226,12 +226,34 @@ ul li a:hover {
 }
 
 .portfolio {
+  display: inline-block;
+  padding: 10px 20px;
   color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s, border-color 0.3s;
 }
 
 .portfolio:hover {
-  background-color: var(--primary-color-dark);
-  color: #ffffff;
+  color: white; /* Change text color on hover */
+  background-color: var(--primary-color); /* Change background color on hover */
+}
+
+.hire__me {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color); 
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.hire__me:hover {
+  background-color: var(--primary-color-dark); 
 }
 
 .image {
